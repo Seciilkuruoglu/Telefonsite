@@ -1,0 +1,234 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Raleway:400,500,600,700&display=swap&subset=latin-ext');
+
+*{
+    margin:0px;
+    padding:0px;
+}
+ul,ol{
+    list-style-type: none;  /* listedeki noktaların gözükmemesi içim*/
+}
+body{
+    background-color: black;
+    background-size:cover;
+    
+}
+#container{
+    width:960px;
+    height:800px;
+    background-color:black;
+    margin-left:auto;
+    margin-right:auto;
+}
+#header{
+    width:960px;
+    height:110px;
+    background-color:black;
+}
+#logo{
+    width:110px;
+    height:110px;
+    background-color: black;
+    display:inline-block
+
+}
+img{
+    width:120px;
+    height:110px;
+}
+#menu{
+    width:840px;
+    height:110px;
+    background-color:black;
+    display:inline-block;
+    margin-left:5px;
+    text-align:center;
+    vertical-align:top; /*menünün kendi hizasını yukarıdan belirler*/
+}
+
+#menu li{
+    display:inline-block; /*menülerin yan yana olması*/
+    
+}
+#menu a{
+    font-size:22px;
+    color:white;
+    font-weight:600;
+    text-decoration: none; /*altın çizili olmaması için*/
+    font-family:'Raleway', sans-serif;
+    padding:0px 14px;
+    height:110px;
+    display:inline-block;
+    line-height:110px;
+}
+#menu a:hover{
+    background-color:#616161;
+}
+#banner{
+    width:960px;
+    height:440px;
+    background-color:rgb(150, 145, 145);
+    margin-top:10px;
+    position:relative;
+}
+#bannerLeft{
+    position:absolute; /*serbest konum alır*/
+    width:390px;
+    height:270px;
+    top:40px;
+    left:64px;
+}
+#bannerRight{
+    width:460px;
+    height:420px;
+    position:absolute;
+    right:35px;
+    bottom:0px;
+    
+}
+#bannerLeft h1{
+    font-family:'Raleway' , sans-serif;
+    font-size:48px;
+    font-weight:600;
+    color:white;
+}
+#bannerLeft h2{
+    font-family:'Raleway' , sans-serif;
+    font-size:30px;
+    font-weight:500;
+    color:white;
+}
+#bannerRight img{
+    width:460px;
+    height:420px;
+    transform:scale(1); /*bu objeyi büyült ya da küçült*/
+    transition:all 0.2s;
+}
+#bannerRight img:hover{
+    transform:scale(1.1); /*scale(1) iken (1.1) yapıp resme gelince büyümesini sağladım*/
+}
+#banner2{
+    width:960px;
+    height:490px;
+    background-color:black;
+    text-align:center;
+    vertical-align: top;
+   
+}
+.box{
+    width:280px;
+    height:370px;
+    background-color:black;
+    text-align: center;
+    padding:50px 0px;
+    display:inline-block; /*boxları yan yana getirir*/
+    margin:0px 16px;
+    vertical-align: top;
+}
+.circleimage{
+    width:220px;
+    height:220px;
+    overflow:hidden;
+    border-radius:100%;
+    margin-left:auto;
+    margin-right:auto; 
+    vertical-align: top;
+    opacity:1;
+    transition:all 0.3s;
+    
+}
+.circleimage:hover{
+    opacity:0.6;
+}
+.circleimage img{
+    width:220px;
+    height:220px; 
+    overflow:hidden; /*resmin dışına kaçan kısımları gizle*/
+    border-radius:100%;
+    margin-left:auto;
+    margin-right:auto;
+    vertical-align: top;
+    opacity:1;
+    transition:all 0.2s;
+}
+
+h3{
+    font-family:'Raleway' , sans-serif;
+    font-size:24px;
+    font-weight:600;
+    color:white;
+    margin:13px 0px; /*yukarı aşağı*/
+}
+p{
+    font-family:'Raleway' , sans-serif;
+    font-size:16px;
+    font-weight:500;
+    color:white;
+
+}
+
+#banner1{
+    width:880px;
+    height:440px;
+    background-color:rgb(0, 0, 0);
+    vertical-align: top;
+    margin-top:0px;
+    position:relative;
+}
+#bannerLeft img{
+        width:850px;
+        height:460px;
+        margin-left:3%;
+        
+}
+.btn{
+    width:440px;
+    height:45px;
+    color:rgb(95, 93, 93);
+    font-size:25px;
+    font-weight:400;
+    margin-left:-73px; 
+    margin-top:55%;
+    text-align:center;
+}
+.btn:hover{
+    border: 3px solid rgb(0, 0, 0);
+}
+.boximage{
+    width:150px;
+    height:150px;
+    overflow:hidden;
+    margin-left:auto;
+    margin-right:auto; 
+    vertical-align: top; 
+    padding-top:12%;
+}
+h4{
+    font-family:'Raleway' , sans-serif;
+    font-size:16px;
+    color:white;
+    font-weight:300;
+    text-decoration:underline;
+}
+h4:hover{
+    text-decoration: underline;
+    color:rgb(0, 47, 255);
+}
+#icon{
+    font-size:30px;
+    color:rgb(14, 13, 13);
+    margin-left:-435px; 
+    margin-top:55%;
+}
+
+
+
+    
+    
+
+
+
+
+
+
+
